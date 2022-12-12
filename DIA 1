@@ -8,3 +8,17 @@ main(){
 
 
 }
+
+//Mi primer programa en C++
+#include<iostream>
+using namespace  std;
+
+int main(){
+	scout<<"Hola mundo";
+	
+	return 0;
+	    
+	    
+
+
+}
