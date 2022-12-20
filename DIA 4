@@ -15,9 +15,9 @@ int main(){
 	cout<<"3.Salir"<<endl;
 	cout<<"ELIGE UNA OPCION (1,2 O 3): ";
 	cin>> resp;
-    switch(resp){
-    	case 1:
-    	cout<<"************************ "<<endl;
+        switch(resp){
+    	   case 1:
+    	   cout<<"************************ "<<endl;
 		cout<<"*          MENU         *"<<endl;
 		cout<<"*************************"<<endl;
 		cout<<"1.Volver a mostrar el menu"<<endl;
