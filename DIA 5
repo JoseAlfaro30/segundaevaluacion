@@ -1,0 +1,42 @@
+#include<iostream>//Librería de cabecera
+using namespace std;
+
+int main(){
+	int cont;
+	for(cont=1;cont<=10;cont++){
+		cout<<"Estoy contento "<<cont<<endl;
+	}
+    return 0;
+}
+
+
+#include<iostream>   //FOR
+
+using namespace std;
+
+int main(){
+	int cont, n;
+	cout<<"Dime el numero de la tabla: "; 
+	cin>>n;
+	for(cont=1; cont<=10; cont++){
+		cout<<n<<" * " <<cont<<" = "<< cont*n<<endl;
+	}
+	return 0;
+}
+
+#include<iostream>   //FOR
+
+using namespace std;
+main(){
+int cont;
+int n_tabla;
+cout<<"Dime que tabla deseas: ";
+cin>>n_tabla;
+cout<<"*****************"<<endl;
+cout<<"*   Tabla del "<<n_tabla<<"    *"<<endl;
+cout<<"****************************"<<endl;
+for(cont=0;cont<=10;cont++){
+	cout<<n_tabla<<" x "<<cont<<"="<<n_tabla*cont<<endl;
+}
+return 0 ;
+}
