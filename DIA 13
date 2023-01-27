@@ -19,7 +19,7 @@ int main(){
     int cont,cont1;
     for(cont=0;cont<3;cont++){
         //Pedimos el nombre del rey mago
-        cout<<"Dime el nombre del rey mago "<<cont<<": ";
+        cout<<"\nDime el nombre del rey mago "<<cont<<": ";
         cin>>nombre;
         printf("\nHas introducido %s",nombre);
         //Verificamos que lo hemos leido bien mostrandolo
@@ -32,15 +32,15 @@ int main(){
         //    printf("\n%c",*(nombre+cont));
         //}
         //reservamos memoria para el nombre
-        reyes[cont]=(char *) malloc((longitud+1)*sizeof(char));
+        reyes[cont]=(char *) malloc((longitud+2)*sizeof(char));
         printf("\nLongitud= %d",longitud);
         //Trasladamos la palabra letra a letra
         for(cont1=0;cont1<=longitud;cont1++){
             *(*(reyes+cont)+cont1)=nombre[cont1];
-            cout<<"\nTraslada la letra %c",*(*<<nombre 
-        } 
+            printf("\nTrasladada la letra %c",*(*(reyes+cont)+cont1));
+        }
     }
-    //Comprobación 
+    //Comprobación
     cout<<endl;
     cout<<"***********************************"<<endl;
     cout<<"*        The magic Kings           *"<<endl;
@@ -50,4 +50,4 @@ int main(){
     }
 
     return 0;
-}
+
